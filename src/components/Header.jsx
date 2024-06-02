@@ -25,7 +25,7 @@ export default function Header({startTour}) {
           </form>
         </div>
         <div className="ml-auto flex flex-row items-center space-x-2">
-        <button className="font-semibold text-lg flex flex-row items-center justify-center border border-gray-100 bg-amber-500 hover:bg-amber-400 text-white px-4 py-2 rounded-md" onClick={startTour}>Start Tour <VscDebugStart/> </button>
+        <button className="font-semibold  flex flex-row items-center justify-center border border-gray-100 bg-amber-500 hover:bg-amber-400 text-white px-4 py-2 rounded-md" onClick={startTour}>Start Tour <VscDebugStart/> </button>
           <button className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-white font-semibold rounded-md tracking-wider">Login</button>
           <button>
             <FaShoppingCart className="text-[1.5rem]" />
