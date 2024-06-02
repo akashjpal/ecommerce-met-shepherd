@@ -42,6 +42,7 @@ export default function App() {
         const newTour = new Shepherd.Tour({
             useModalOverlay: true,
             defaultStepOptions: {
+                classes: 'shepherd-theme-custom', // Customize the theme
                 scrollTo: true
             }
         });
