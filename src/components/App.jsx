@@ -55,6 +55,7 @@ export default function App() {
             },
             buttons: [
                 {
+                    classes:'shepherd-button-primary',
                     text: 'Next',
                     action: newTour.next
                 }
@@ -70,6 +71,7 @@ export default function App() {
             },
             buttons: [
                 {
+                    classes:'shepherd-button-secondary',
                     text: 'Back',
                     action: newTour.back
                 },
@@ -89,6 +91,7 @@ export default function App() {
             },
             buttons: [
                 {
+                    classes:'shepherd-button-secondary',
                     text: 'Back',
                     action: newTour.back
                 },
@@ -108,6 +111,7 @@ export default function App() {
             },
             buttons: [
                 {
+                    classes:'shepherd-button-secondary',
                     text: 'Back',
                     action: newTour.back
                 },
@@ -127,6 +131,7 @@ export default function App() {
             },
             buttons: [
                 {
+                    classes:'shepherd-button-secondary',
                     text: 'Back',
                     action: newTour.back
                 },
