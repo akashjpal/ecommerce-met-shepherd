@@ -21,7 +21,7 @@ export default function Header({startTour}) {
         <div className="max-w-3xl flex-grow">
           
           <form>
-            <input className="w-full px-3 py-3 font-semibold rounded-lg bg-amber-400 placeholder-red-500"  type="text" placeholder="Search here..." autoFocus/>
+            <input className="w-full px-3 py-3 font-semibold rounded-lg bg-amber-400 placeholder-black"  type="text" placeholder="Search here..." autoFocus/>
           </form>
         </div>
         <div className="ml-auto flex flex-row items-center space-x-2">
